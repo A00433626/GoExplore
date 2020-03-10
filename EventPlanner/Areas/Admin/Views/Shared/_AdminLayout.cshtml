@@ -1,0 +1,127 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard | GoExplore</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    @Styles.Render("~/Content/admincss")
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    
+</head>
+<body class="hold-transition sidebar-mini layout-navbar-fixed">
+    <!-- Site wrapper -->
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <ul class="navbar-nav ml-auto">
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-user-circle"></i>
+                        <span class="badge badge-warning navbar-badge"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-item dropdown-header">
+                            @if (@ViewBag.UserName != null)
+                            {
+                                @:Welcome  @ViewBag.UserName
+                            }
+                            else
+                            {
+                                @:Welcome Guest
+                            }
+                        </span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-user-edit"></i> Edit Profile
+                        </a>
+
+                        <div class="dropdown-divider"></div>
+                        <a href="Login/userLogout" class="dropdown-item dropdown-footer">Logout</a>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="#" class="brand-link elevation-4">
+                <img src="~/images/admin/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">GoExplore</span>
+            </a>
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user (optional) -->
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
+                        <li class="nav-item ">
+                            <a href="@Url.Action("Index", "Dashboard", new { @pageNo=0})" class="nav-link lidashboard">
+                                <i class="fa fa-calendar nav-icon" aria-hidden="true"></i>
+                                <p>Event </p>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="~/Admin/Dashboard/EventNews" class="nav-link lieventhistory">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Event Booking History</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            @RenderBody()
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer">
+            <strong>Copyright &copy;2019 <a href="#">GoExplore</a>.</strong> All rights
+            reserved.
+        </footer>
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+    <!-- jQuery -->
+    @Scripts.Render("~/bundles/adminjs")
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        var url = window.location.href.split("?")[0].split("/");
+        var pageName = url[url.length - 1].toLowerCase();
+        var links = [".lieventhistory", ".lidashboard"];
+        $(links).removeClass("active");
+        switch (pageName) {
+            case "dashboard":
+                $(".lidashboard").addClass("active");
+                break;
+            case "eventhistory":
+                $(".lieventhistory").addClass("active");
+                break;
+            default:
+                $(".lidashboard").addClass("active");
+                break;
+        }
+    </script>
+</body>
+</html>

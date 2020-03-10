@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GoExploreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="BookingId" />
+    </Key>
+    <Property Name="BookingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="TicketId" Type="Int32" />
+    <Property Name="TicketsBooked" Type="Int32" />
+    <Property Name="TotalAmount" Type="Decimal" Precision="18" Scale="6" />
+    <NavigationProperty Name="Booking1" Relationship="GoExploreModel.FK_Booking_Booking" FromRole="Booking" ToRole="Booking1" />
+    <NavigationProperty Name="Booking2" Relationship="GoExploreModel.FK_Booking_Booking" FromRole="Booking1" ToRole="Booking" />
+    <NavigationProperty Name="Ticket" Relationship="GoExploreModel.FK_Booking_Tickets" FromRole="Booking" ToRole="Ticket" />
+    <NavigationProperty Name="User" Relationship="GoExploreModel.FK_Booking_Users" FromRole="Booking" ToRole="User" />
+    <NavigationProperty Name="Payments" Relationship="GoExploreModel.FK_Payment_Booking" FromRole="Booking" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="Event_Details">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Name="EventId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="EventName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="EventDescription" Type="String" MaxLength="1024" FixedLength="false" Unicode="false" />
+    <Property Name="EventStartDate" Type="DateTime" Precision="3" />
+    <Property Name="EventEndDate" Type="DateTime" Precision="3" />
+    <Property Name="Venue" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Organiser_ID" Type="Int32" />
+    <Property Name="ImagePath" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="EventCategory" Relationship="GoExploreModel.FK_Event_Details_EventCategory" FromRole="Event_Details" ToRole="EventCategory" />
+    <NavigationProperty Name="User" Relationship="GoExploreModel.FK_Event_Details_Users" FromRole="Event_Details" ToRole="User" />
+    <NavigationProperty Name="EventAttendees" Relationship="GoExploreModel.FK_EventAttendee_Event_Details" FromRole="Event_Details" ToRole="EventAttendee" />
+    <NavigationProperty Name="Tickets" Relationship="GoExploreModel.FK_Tickets_Event_Details" FromRole="Event_Details" ToRole="Ticket" />
+  </EntityType>
+  <EntityType Name="EventAttendee">
+    <Key>
+      <PropertyRef Name="Attendee_id" />
+    </Key>
+    <Property Name="Attendee_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EventId" Type="Int32" />
+    <Property Name="Favorites" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Event_Details" Relationship="GoExploreModel.FK_EventAttendee_Event_Details" FromRole="EventAttendee" ToRole="Event_Details" />
+  </EntityType>
+  <EntityType Name="EventCategory">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Event_Details" Relationship="GoExploreModel.FK_Event_Details_EventCategory" FromRole="EventCategory" ToRole="Event_Details" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentId" />
+    </Key>
+    <Property Name="PaymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookingId" Type="Int32" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="DateTime" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="PayMode" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="6" />
+    <NavigationProperty Name="Booking" Relationship="GoExploreModel.FK_Payment_Booking" FromRole="Payment" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="TicketId" />
+    </Key>
+    <Property Name="TicketId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EventId" Type="Int32" />
+    <Property Name="Category" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="6" />
+    <Property Name="TotalCount" Type="Int32" />
+    <NavigationProperty Name="Bookings" Relationship="GoExploreModel.FK_Booking_Tickets" FromRole="Ticket" ToRole="Booking" />
+    <NavigationProperty Name="Event_Details" Relationship="GoExploreModel.FK_Tickets_Event_Details" FromRole="Ticket" ToRole="Event_Details" />
+    <NavigationProperty Name="Tickets1" Relationship="GoExploreModel.FK_Tickets_Tickets" FromRole="Ticket" ToRole="Ticket1" />
+    <NavigationProperty Name="Ticket1" Relationship="GoExploreModel.FK_Tickets_Tickets" FromRole="Ticket1" ToRole="Ticket" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserNAme" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="EmailId" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="UserType" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bookings" Relationship="GoExploreModel.FK_Booking_Users" FromRole="User" ToRole="Booking" />
+    <NavigationProperty Name="Event_Details" Relationship="GoExploreModel.FK_Event_Details_Users" FromRole="User" ToRole="Event_Details" />
+  </EntityType>
+  <EntityContainer Name="GoExplore" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bookings" EntityType="Self.Booking" />
+    <EntitySet Name="Event_Details" EntityType="Self.Event_Details" />
+    <EntitySet Name="EventAttendees" EntityType="Self.EventAttendee" />
+    <EntitySet Name="EventCategories" EntityType="Self.EventCategory" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Tickets" EntityType="Self.Ticket" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Booking_Booking" Association="GoExploreModel.FK_Booking_Booking">
+      <End Role="Booking" EntitySet="Bookings" />
+      <End Role="Booking1" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_Tickets" Association="GoExploreModel.FK_Booking_Tickets">
+      <End Role="Ticket" EntitySet="Tickets" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_Users" Association="GoExploreModel.FK_Booking_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Booking" Association="GoExploreModel.FK_Payment_Booking">
+      <End Role="Booking" EntitySet="Bookings" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Details_EventCategory" Association="GoExploreModel.FK_Event_Details_EventCategory">
+      <End Role="EventCategory" EntitySet="EventCategories" />
+      <End Role="Event_Details" EntitySet="Event_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Details_Users" Association="GoExploreModel.FK_Event_Details_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Event_Details" EntitySet="Event_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EventAttendee_Event_Details" Association="GoExploreModel.FK_EventAttendee_Event_Details">
+      <End Role="Event_Details" EntitySet="Event_Details" />
+      <End Role="EventAttendee" EntitySet="EventAttendees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tickets_Event_Details" Association="GoExploreModel.FK_Tickets_Event_Details">
+      <End Role="Event_Details" EntitySet="Event_Details" />
+      <End Role="Ticket" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tickets_Tickets" Association="GoExploreModel.FK_Tickets_Tickets">
+      <End Role="Ticket" EntitySet="Tickets" />
+      <End Role="Ticket1" EntitySet="Tickets" />
+    </AssociationSet>
+    <FunctionImport Name="usp_GetEventList" ReturnType="Collection(GoExploreModel.usp_GetEventList_Result)" />
+  </EntityContainer>
+  <Association Name="FK_Booking_Booking">
+    <End Type="GoExploreModel.Booking" Role="Booking" Multiplicity="1" />
+    <End Type="GoExploreModel.Booking" Role="Booking1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Booking">
+        <PropertyRef Name="BookingId" />
+      </Principal>
+      <Dependent Role="Booking1">
+        <PropertyRef Name="BookingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_Tickets">
+    <End Type="GoExploreModel.Ticket" Role="Ticket" Multiplicity="0..1" />
+    <End Type="GoExploreModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ticket">
+        <PropertyRef Name="TicketId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="TicketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_Users">
+    <End Type="GoExploreModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="GoExploreModel.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Booking">
+    <End Type="GoExploreModel.Booking" Role="Booking" Multiplicity="0..1" />
+    <End Type="GoExploreModel.Payment" Role="Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Booking">
+        <PropertyRef Name="BookingId" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="BookingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Details_EventCategory">
+    <End Type="GoExploreModel.EventCategory" Role="EventCategory" Multiplicity="0..1" />
+    <End Type="GoExploreModel.Event_Details" Role="Event_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EventCategory">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Event_Details">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Details_Users">
+    <End Type="GoExploreModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="GoExploreModel.Event_Details" Role="Event_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Event_Details">
+        <PropertyRef Name="Organiser_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EventAttendee_Event_Details">
+    <End Type="GoExploreModel.Event_Details" Role="Event_Details" Multiplicity="0..1" />
+    <End Type="GoExploreModel.EventAttendee" Role="EventAttendee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Details">
+        <PropertyRef Name="EventId" />
+      </Principal>
+      <Dependent Role="EventAttendee">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tickets_Event_Details">
+    <End Type="GoExploreModel.Event_Details" Role="Event_Details" Multiplicity="0..1" />
+    <End Type="GoExploreModel.Ticket" Role="Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Details">
+        <PropertyRef Name="EventId" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tickets_Tickets">
+    <End Type="GoExploreModel.Ticket" Role="Ticket" Multiplicity="1" />
+    <End Type="GoExploreModel.Ticket" Role="Ticket1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ticket">
+        <PropertyRef Name="TicketId" />
+      </Principal>
+      <Dependent Role="Ticket1">
+        <PropertyRef Name="TicketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="usp_GetEventList_Result">
+    <Property Type="Int32" Name="EventId" Nullable="false" />
+    <Property Type="String" Name="EventName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="EventDescription" Nullable="true" MaxLength="1024" />
+    <Property Type="DateTime" Name="EventStartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EventEndDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Venue" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="ImagePath" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Category" Nullable="true" MaxLength="255" />
+    <Property Type="Decimal" Name="Amount" Nullable="true" Precision="18" Scale="6" />
+    <Property Type="String" Name="UserNAme" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="EmailId" Nullable="true" MaxLength="255" />
+  </ComplexType>
+</Schema>

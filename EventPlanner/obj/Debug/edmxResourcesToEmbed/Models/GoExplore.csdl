@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GoExplore" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Event_Attendee">
+    <Key>
+      <PropertyRef Name="attendeeId" />
+    </Key>
+    <Property Name="attendeeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="eventId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Event_Details" Relationship="Self.FK_Event_Attendee_Event_Details" FromRole="Event_Attendee" ToRole="Event_Details" />
+  </EntityType>
+  <EntityType Name="Event_Category">
+    <Key>
+      <PropertyRef Name="categoryId" />
+    </Key>
+    <Property Name="categoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="categoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Event_Details" Relationship="Self.FK_Event_Details_Event_Category" FromRole="Event_Category" ToRole="Event_Details" />
+  </EntityType>
+  <EntityType Name="Event_Details">
+    <Key>
+      <PropertyRef Name="eventId" />
+    </Key>
+    <Property Name="eventId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="categoryId" Type="Int32" Nullable="false" />
+    <Property Name="eventName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="eventDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="venue" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="eventDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="organizerId" Type="Int32" Nullable="false" />
+    <Property Name="ticketPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="totalSeats" Type="Int32" Nullable="false" />
+    <Property Name="imagePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Event_Attendee" Relationship="Self.FK_Event_Attendee_Event_Details" FromRole="Event_Details" ToRole="Event_Attendee" />
+    <NavigationProperty Name="Event_Category" Relationship="Self.FK_Event_Details_Event_Category" FromRole="Event_Details" ToRole="Event_Category" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Event_Details_User" FromRole="Event_Details" ToRole="User" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bookings" Relationship="GoExplore.FK_Booking_Event" FromRole="Event_Details" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="emailId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Event_Details" Relationship="Self.FK_Event_Details_User" FromRole="User" ToRole="Event_Details" />
+    <NavigationProperty Name="Bookings" Relationship="GoExplore.FK_Booking_User" FromRole="User" ToRole="Booking" />
+  </EntityType>
+  <Association Name="FK_Event_Attendee_Event_Details">
+    <End Role="Event_Details" Type="Self.Event_Details" Multiplicity="1" />
+    <End Role="Event_Attendee" Type="Self.Event_Attendee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Details">
+        <PropertyRef Name="eventId" />
+      </Principal>
+      <Dependent Role="Event_Attendee">
+        <PropertyRef Name="eventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Details_Event_Category">
+    <End Role="Event_Category" Type="Self.Event_Category" Multiplicity="1" />
+    <End Role="Event_Details" Type="Self.Event_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Category">
+        <PropertyRef Name="categoryId" />
+      </Principal>
+      <Dependent Role="Event_Details">
+        <PropertyRef Name="categoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Details_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Event_Details" Type="Self.Event_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="Event_Details">
+        <PropertyRef Name="organizerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GoExploreEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Event_Attendee" EntityType="Self.Event_Attendee" />
+    <EntitySet Name="Event_Category" EntityType="Self.Event_Category" />
+    <EntitySet Name="Event_Details" EntityType="Self.Event_Details" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Event_Attendee_Event_Details" Association="Self.FK_Event_Attendee_Event_Details">
+      <End Role="Event_Details" EntitySet="Event_Details" />
+      <End Role="Event_Attendee" EntitySet="Event_Attendee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Details_Event_Category" Association="Self.FK_Event_Details_Event_Category">
+      <End Role="Event_Category" EntitySet="Event_Category" />
+      <End Role="Event_Details" EntitySet="Event_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Details_User" Association="Self.FK_Event_Details_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Event_Details" EntitySet="Event_Details" />
+    </AssociationSet>
+    <EntitySet Name="Payments" EntityType="GoExplore.Payment" />
+    <EntitySet Name="Bookings" EntityType="GoExplore.Booking" />
+    <EntitySet Name="Countries" EntityType="GoExplore.Country" />
+    <EntitySet Name="States" EntityType="GoExplore.State" />
+    <AssociationSet Name="FK_Booking_Event" Association="GoExplore.FK_Booking_Event">
+      <End Role="Event_Details" EntitySet="Event_Details" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_User" Association="GoExplore.FK_Booking_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__State__CountryId__5FB337D6" Association="GoExplore.FK__State__CountryId__5FB337D6">
+      <End Role="Country" EntitySet="Countries" />
+      <End Role="State" EntitySet="States" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="paymentId" />
+    </Key>
+    <Property Name="paymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="bookingId" Type="Int32" Nullable="false" />
+    <Property Name="firstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="paymentMode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="amount" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="cardNumer" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cardType" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="expiryDate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cvv" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="bookingId" />
+    </Key>
+    <Property Name="bookingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="eventId" Type="Int32" Nullable="false" />
+    <Property Name="seatsOccupied" Type="Int32" />
+    <Property Name="totalAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="bookingDate" Type="DateTime" Precision="3" />
+    <Property Name="address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="city" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="state" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="zipCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="bookingStatus" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="status" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="phoneNumber" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Event_Details" Relationship="GoExplore.FK_Booking_Event" FromRole="Booking" ToRole="Event_Details" />
+    <NavigationProperty Name="User" Relationship="GoExplore.FK_Booking_User" FromRole="Booking" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="CountryId" />
+    </Key>
+    <Property Name="CountryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CountryName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CountryCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="States" Relationship="GoExplore.FK__State__CountryId__5FB337D6" FromRole="Country" ToRole="State" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StateId" />
+    </Key>
+    <Property Name="StateId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StateName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CountryId" Type="Int32" />
+    <NavigationProperty Name="Country" Relationship="GoExplore.FK__State__CountryId__5FB337D6" FromRole="State" ToRole="Country" />
+  </EntityType>
+  <Association Name="FK_Booking_Event">
+    <End Type="GoExplore.Event_Details" Role="Event_Details" Multiplicity="1" />
+    <End Type="GoExplore.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Details">
+        <PropertyRef Name="eventId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="eventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_User">
+    <End Type="GoExplore.User" Role="User" Multiplicity="1" />
+    <End Type="GoExplore.Booking" Role="Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__State__CountryId__5FB337D6">
+    <End Type="GoExplore.Country" Role="Country" Multiplicity="0..1" />
+    <End Type="GoExplore.State" Role="State" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="CountryId" />
+      </Principal>
+      <Dependent Role="State">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

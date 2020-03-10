@@ -1,0 +1,186 @@
+﻿@model  EventPlanner.Helper.PaymentModel
+@{
+    ViewBag.Title = "PaymentDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/css/bootstrap.min.css" type="text/css" />
+<style>
+    span.success {
+        background-color: palegreen;
+        font-size: 22px;
+    }
+    /*.site-header, .site-footer {
+        display:none;
+    }*/
+    
+</style>
+<script>
+    $(document).ready(function () {
+        $(".selCountry").on("change", function () {
+            $("#Country").val($(this).val());
+        });
+        $(".selMonth").on("change", function () {
+            $("#ExpiryMonth").val($(this).val());
+        });
+        $(".selYear").on("change", function () {
+            $("#ExpiryYear").val($(this).val());
+        });
+        $(".selCardType").on("change", function () {
+            $("#CardType").val($(this).val());
+        });
+    });
+</script>
+<html>
+<body>
+    <div class="page-header events-page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Payment</h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div><div></div>
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                @if (ViewBag.BookingId <= 0)
+                {
+                    using (Html.BeginForm("Index", "Payments"))
+                    {
+                        @Html.AntiForgeryToken()
+                <div class="form-group payment">
+                    <input type="hidden" name="TotalAmount" value="@Model.TotalAmount" />
+                    <input type="hidden" name="SeatsOccupied" value="@Model.SeatsOccupied" id="SeatsOccupied" />
+                    <input type="hidden" name="EventId" value="@Model.EventId" id="EventId" />
+                    <input type="hidden" value="@Model.CardType" name="CardType" id="CardType" />
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Amount, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-4">
+                            @Html.TextBoxFor(model => model.Amount, htmlAttributes: new { @class = "form-control", disabled = "disabled", name = "Amount", id = "Amount" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2" for="cardNumbe">Name</label>
+                        <div class="col-md-4">
+                            @Html.EditorFor(model => model.NameOnCard, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.NameOnCard, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardNumber" class="col-md-2">Country</label>
+                        <div class="col-md-4">
+                            <input type="hidden" name="Country" id="Country" value="01" />
+                            <select class="form-control selCountry">
+                                <option value="01">USA</option>
+                                <option value="02">Canada</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber" class="col-md-2">Phone Number</label>
+                        <div class="col-md-4">
+                            @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group" id="card-number-field">
+                        <label for="cardNumber" class="col-md-2">CardType</label>
+
+                        <div class="col-md-4 ">
+                            <select class="form-control selCardType">
+                                <option value="01" @{ var selected = Model.CardType == "01" ? "selected" : "";} @selected>MasterCard</option>
+                                <option value="02" @{ var selected1 = Model.CardType == "02" ? "selected" : "";} @selected1>Visa</option>
+                                <option value="03" @{ var selected2 = Model.CardType == "03" ? "selected" : "";} @selected2>Amex</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="CardNumber" class="col-md-2">Card Number</label>
+                        <div class="col-md-4">
+                            @Html.EditorFor(model => model.CardNumber, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.CardNumber, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group CVV">
+                        <label for="cvv" class="col-md-2">CVV</label>
+                        <div class="col-md-1">
+                            @Html.EditorFor(model => model.CVV, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.CVV, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group" id="expiration-date">
+                        <label class="col-md-2">Expiration Date</label>
+                        <div class="row">
+                            <div class="col-md-2" style="padding-left: 29px;">
+                                <input type="hidden" name="ExpiryMonth" id="ExpiryMonth" value="01" />
+                                <select class="form-control selMonth">
+                                    <option value="01">January</option>
+                                    <option value="02">February </option>
+                                    <option value="03">March</option>
+                                    <option value="04">April</option>
+                                    <option value="05">May</option>
+                                    <option value="06">June</option>
+                                    <option value="07">July</option>
+                                    <option value="08">August</option>
+                                    <option value="09">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                            </div>
+                            <input type="hidden" name="ExpiryYear" id="ExpiryYear" value="20" />
+                            <div class="col-md-2 float-left selYear">
+                                <select class="form-control">
+                                    <option value="20"> 2020</option>
+                                    <option value="21"> 2021</option>
+                                    <option value="22"> 2022</option>
+                                    <option value="23"> 2023</option>
+                                    <option value="24"> 2024</option>
+                                    <option value="25"> 2025</option>
+
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" id="credit_cards">
+                        <div class="col-md-6">
+                            <img src="/images/visa.jpg" id="visa">
+                            <img src="/images/mastercard.jpg" id="mastercard">
+                            <img src="/images/amex.jpg" id="amex">
+                        </div>
+                    </div>
+                    <div class="form-group" id="pay-now">
+                        <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                    </div>
+                    <div class="form-group">
+                        <a href="@Url.Action("Index","Home")" class="btn btn-default">Cancel</a>
+                    </div>
+                </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-md-12">
+                        <div>Ticket booked successfully.. reference <span class="success">@ViewBag.BookingId.ToString("000000000#")</span></div>
+                    </div>
+                }
+                <div>
+                    @Html.ActionLink("Back to List", "Index", "Home")
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    .table img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+</style>
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Event Management</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Form</a></li>
+                    <li class="breadcrumb-item active">Event Details</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            Event Management |
+                            <a href="@Url.Action("AddEvent", "Dashboard")" title="Add New Event">
+                                <i class="fas fa-plus-circle"></i>
+                            </a>
+                        </h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                @if (@ViewBag.Count > 0)
+                                {
+                                    <div class="card-tools">
+                                        <ul class="pagination pagination-sm float-right">
+                                            <li class="page-item">
+                                                @Html.ActionLink("«", "Index", new { controller = "Dashboard", pageNo = 0 }, new { @class = "page-link" })
+                                                @*<a class="page-link" href="PagingnationEvent/1">«</a>*@
+                                            </li>
+                                            @{
+                                                var decimalV = Math.Ceiling((double)ViewBag.Count / 10);
+                                            }
+                                            @for (var i = 1; i <= decimalV; i++)
+                                            {
+                                                <li class="page-item">
+                                                    @Html.ActionLink(i.ToString(), "../Dashboard", new { pageNo = i - 1 }, new { @class = "page-link" })
+                                                </li>
+                                            }
+                                            @*<li class="page-item">
+                                                    @Html.ActionLink("1", "Index", new { controller = "Dashboard", pageNo = 1 }, new { @class = "page-link" })
+                                                </li>
+                                                <li class="page-item">
+                                                    @Html.ActionLink("2", "Index", new { controller = "Dashboard", pageNo = 2 }, new { @class = "page-link" })
+                                                </li>
+                                                <li class="page-item">
+                                                    @Html.ActionLink("3", "Index", new { controller = "Dashboard", pageNo = 3 }, new { @class = "page-link" })
+                                                </li>*@
+
+                                            <li class="page-item">
+                                                @Html.ActionLink("»", "Index", new { controller = "Dashboard", pageNo = @decimalV - 1 }, new { @class = "page-link" })
+                                            </li>
+                                        </ul>
+                                    </div>
+                                }
+
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body p-0">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10px">#</th>
+                                            <th>Category</th>
+                                            <th>Organiser</th>
+                                            <th>Name</th>
+                                            <th>Description</th>
+                                            <th>Event Date</th>
+                                           
+                                            <th>Venue</th>
+                                            <th>Image</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{int x = 1;}
+                                        @if (ViewBag.Count > 0)
+                                        {
+                                            foreach (var eventData in @ViewBag.eventDatas)
+                                            {
+                                                <tr>
+                                                    <td>@(x++).</td>
+                                                    <td>@eventData.Event_Category.categoryName</td>
+                                                    <td>@eventData.User.emailId</td>
+                                                    <td>@eventData.eventName</td>
+                                                    <td>@Convert.ToString(@eventData.eventDescription)</td>
+                                                    <td>
+                                                        @{
+                                                            var sdt = @Convert.ToDateTime(@eventData.eventDate);
+                                                        }
+                                                        @sdt.ToString("dd MMM-yyyy HH:mm tt")
+                                                    </td>
+                                                    <td>@eventData.venue</td>
+                                                    <td>
+                                                        @if (@eventData.imagePath == null)
+                                                        {
+
+                                                        }
+                                                        else
+                                                        {
+                                                           
+                                                            <img src="~/images/event/@eventData.imagePath" />
+                                                        }
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="5">There is no enough data to display</td>
+                                            </tr>
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.content -->

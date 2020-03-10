@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GoExplore.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="bookingId" />
+    </Key>
+    <Property Name="bookingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="eventId" Type="int" Nullable="false" />
+    <Property Name="seatsOccupied" Type="int" />
+    <Property Name="totalAmount" Type="money" />
+    <Property Name="bookingDate" Type="datetime" />
+    <Property Name="address" Type="varchar" MaxLength="255" />
+    <Property Name="city" Type="varchar" MaxLength="255" />
+    <Property Name="state" Type="varchar" MaxLength="255" />
+    <Property Name="country" Type="varchar" MaxLength="50" />
+    <Property Name="zipCode" Type="varchar" MaxLength="20" />
+    <Property Name="bookingStatus" Type="char" MaxLength="1" />
+    <Property Name="status" Type="char" MaxLength="1" />
+    <Property Name="phoneNumber" Type="varchar" MaxLength="12" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="CountryId" />
+    </Key>
+    <Property Name="CountryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CountryName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="CountryCode" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Event_Attendee">
+    <Key>
+      <PropertyRef Name="attendeeId" />
+    </Key>
+    <Property Name="attendeeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="eventId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Event_Category">
+    <Key>
+      <PropertyRef Name="categoryId" />
+    </Key>
+    <Property Name="categoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="categoryName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Event_Details">
+    <Key>
+      <PropertyRef Name="eventId" />
+    </Key>
+    <Property Name="eventId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="categoryId" Type="int" Nullable="false" />
+    <Property Name="eventName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="eventDescription" Type="varchar(max)" Nullable="false" />
+    <Property Name="venue" Type="varchar(max)" />
+    <Property Name="eventDate" Type="datetime" Nullable="false" />
+    <Property Name="organizerId" Type="int" Nullable="false" />
+    <Property Name="ticketPrice" Type="money" Nullable="false" />
+    <Property Name="totalSeats" Type="int" Nullable="false" />
+    <Property Name="imagePath" Type="varchar(max)" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="paymentId" />
+    </Key>
+    <Property Name="paymentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bookingId" Type="int" Nullable="false" />
+    <Property Name="firstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="lastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="paymentMode" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="amount" Type="money" Nullable="false" />
+    <Property Name="cardNumer" Type="varchar" MaxLength="255" />
+    <Property Name="cardType" Type="varchar" MaxLength="255" />
+    <Property Name="expiryDate" Type="varchar" MaxLength="255" />
+    <Property Name="cvv" Type="int" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StateId" />
+    </Key>
+    <Property Name="StateId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StateName" Type="varchar" MaxLength="255" />
+    <Property Name="CountryId" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="emailId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="userType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__State__CountryId__5FB337D6">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="State" Type="Self.State" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="CountryId" />
+      </Principal>
+      <Dependent Role="State">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_Event">
+    <End Role="Event_Details" Type="Self.Event_Details" Multiplicity="1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Details">
+        <PropertyRef Name="eventId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="eventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Booking_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Attendee_Event_Details">
+    <End Role="Event_Details" Type="Self.Event_Details" Multiplicity="1" />
+    <End Role="Event_Attendee" Type="Self.Event_Attendee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Details">
+        <PropertyRef Name="eventId" />
+      </Principal>
+      <Dependent Role="Event_Attendee">
+        <PropertyRef Name="eventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Details_Event_Category">
+    <End Role="Event_Category" Type="Self.Event_Category" Multiplicity="1" />
+    <End Role="Event_Details" Type="Self.Event_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_Category">
+        <PropertyRef Name="categoryId" />
+      </Principal>
+      <Dependent Role="Event_Details">
+        <PropertyRef Name="categoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Event_Details_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Event_Details" Type="Self.Event_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="Event_Details">
+        <PropertyRef Name="organizerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GoExploreStoreContainer">
+    <EntitySet Name="Booking" EntityType="Self.Booking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Event_Attendee" EntityType="Self.Event_Attendee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Event_Category" EntityType="Self.Event_Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Event_Details" EntityType="Self.Event_Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="State" EntityType="Self.State" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__State__CountryId__5FB337D6" Association="Self.FK__State__CountryId__5FB337D6">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="State" EntitySet="State" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_Event" Association="Self.FK_Booking_Event">
+      <End Role="Event_Details" EntitySet="Event_Details" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Booking_User" Association="Self.FK_Booking_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Attendee_Event_Details" Association="Self.FK_Event_Attendee_Event_Details">
+      <End Role="Event_Details" EntitySet="Event_Details" />
+      <End Role="Event_Attendee" EntitySet="Event_Attendee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Details_Event_Category" Association="Self.FK_Event_Details_Event_Category">
+      <End Role="Event_Category" EntitySet="Event_Category" />
+      <End Role="Event_Details" EntitySet="Event_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Event_Details_User" Association="Self.FK_Event_Details_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Event_Details" EntitySet="Event_Details" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,129 @@
+﻿
+@{
+    ViewBag.Title = "Event List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/main.js"></script>
+<style>
+    .single-event {
+        display: block !important;
+    }
+</style>
+<html>
+<body>
+    <div class="page-header events-page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Events.</h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form class="events-search">
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-12 col-md-3">
+                    <input type="date" placeholder="Date">
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <input type="text" placeholder="Event">
+                </div> -->
+
+                <div class="col-12 col-md-3">
+                    <input type="text" placeholder="venue" id="venue" name="venue">
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <input class="btn gradient-bg" type="button" id="submit" value="Search Events">
+                </div>
+            </div>
+        </div>
+    </form>
+    <div></div>
+    <div class="container" id="eventSearchDiv">
+
+    </div>
+
+    <div class="upcoming-events-outer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="upcoming-events">
+                        <div class="upcoming-events-header">
+                            <h4>Upcoming Events</h4>
+                        </div>
+                        @foreach (var eComing in ViewBag.upcomingEvent)
+                        {
+                            var eDesc = (eComing.eventDescription.Length > 300 ? eComing.eventDescription.Substring(0, 300) : eComing.eventDescription);
+                            <div class="upcoming-events-list">
+                                <div class="upcoming-event-wrap flex flex-wrap justify-content-between align-items-center">
+                                    <figure class="events-thumbnail">
+                                        <a href="#"><img src="@eComing.imagePath" alt=""></a>
+                                    </figure>
+
+                                    <div class="entry-meta">
+                                        <div class="event-date">
+                                            @{
+                                                var sdt = @Convert.ToDateTime(@eComing.eventDate);
+                                                //var edt = @Convert.ToDateTime(@eComing.EventEndDate);
+                                            }
+                                            @sdt.ToString("dd")<span>@sdt.ToString("MMMM")</span>
+                                        </div>
+                                    </div>
+
+                                    <header class="entry-header">
+                                        <h3 class="entry-title"><a href="#">@eComing.eventName</a></h3>
+                                        <h4><p>@eDesc...</p></h4>
+
+                                        <div class="event-date-time">@sdt.ToString("dd-MM-yyyy hh:mm") </div>
+
+                                        <div class="event-speaker">@eComing.venue</div>
+                                    </header>
+
+                                    <footer class="entry-footer">
+                                        <a href="#">Buy Tikets</a>
+                                    </footer>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter-subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="entry-header">
+                        <h2 class="entry-title">Subscribe to our newsletter to get the latest trends & news</h2>
+                        <p>Join our database NOW!</p>
+                    </header>
+
+                    <div class="newsletter-form">
+                        <form class="flex flex-wrap justify-content-center align-items-center">
+                            <div class="col-md-12 col-lg-3">
+                                <input type="text" placeholder="Name">
+                            </div>
+
+                            <div class="col-md-12 col-lg-6">
+                                <input type="email" placeholder="Your e-mail">
+                            </div>
+
+                            <div class="col-md-12 col-lg-3">
+                                <input class="btn gradient-bg" type="submit" value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<div class="row events-list">
+    @foreach (var eData in ViewBag.currnetEvent)
+    {
+        var eDesc = (eData.eventDescription.Length > 300 ? eData.eventDescription.Substring(0, 300) : eData.eventDescription);
+        <div class="col-12 col-lg-6 single-event">
+            <figure class="events-thumbnail">
+                <a href="#"><img src="@eData.imagePath" alt=""></a>
+            </figure>
+
+            <div class="event-content-wrap">
+                <header class="entry-header flex justify-content-between">
+                    <div>
+                        <h2 class="entry-title"><a href="#">@eData.eventName</a></h2>
+
+                        <div class="event-location"><a href="#">@eDesc...</a></div>
+                        @{
+                            var sdt = @Convert.ToDateTime(eData.eventDate);
+                            //var edt = @Convert.ToDateTime(eData.EventEndDate);
+                        }
+                        <div class="event-date">@sdt.ToString("dd-MM-yyyy hh:mm")</div>
+                    </div>
+
+                    <div class="event-cost flex justify-content-center align-items-center">
+                        from<span>0.00</span>
+                    </div>
+                </header>
+
+                <footer class="entry-footer">
+                    <a href="@Url.Action("event_detail","Event",new {eventId = eData.eventId })">Buy Tikets</a>
+                </footer>
+            </div>
+        </div>
+    }
+</div>
+

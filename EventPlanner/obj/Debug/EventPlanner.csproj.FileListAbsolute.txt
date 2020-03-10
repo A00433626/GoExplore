@@ -1,0 +1,1332 @@
+C:\Pankaj\Projects\asp\EventPlanner\bin\EventPlanner.dll.config
+C:\Pankaj\Projects\asp\EventPlanner\bin\EventPlanner.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\EventPlanner.pdb
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\csc.exe
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\csc.exe.config
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\csc.rsp
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\csi.exe
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\csi.exe.config
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\csi.rsp
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.AppContext.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Collections.Immutable.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Console.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Globalization.Calendars.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.IO.Compression.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.IO.FileSystem.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Net.Http.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Net.Sockets.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.ValueTuple.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Xml.XPath.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\vbc.exe
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\vbc.exe.config
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\vbc.rsp
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\VBCSCompiler.exe
+C:\Pankaj\Projects\asp\EventPlanner\bin\roslyn\VBCSCompiler.exe.config
+C:\Pankaj\Projects\asp\EventPlanner\bin\Microsoft.Win32.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\netstandard.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.AppContext.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Collections.Concurrent.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Collections.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Collections.NonGeneric.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Collections.Specialized.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.ComponentModel.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.ComponentModel.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.ComponentModel.TypeConverter.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Console.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Data.Common.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.Contracts.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.Debug.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.Process.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.StackTrace.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.Tools.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.TraceSource.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.Tracing.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Drawing.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Dynamic.Runtime.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Globalization.Calendars.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Globalization.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Globalization.Extensions.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.Compression.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.Compression.ZipFile.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.FileSystem.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.FileSystem.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.FileSystem.Watcher.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.IsolatedStorage.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.MemoryMappedFiles.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.Pipes.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Linq.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Linq.Expressions.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Linq.Parallel.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Linq.Queryable.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.Http.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.NameResolution.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.NetworkInformation.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.Ping.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.Requests.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.Security.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.Sockets.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.WebHeaderCollection.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.WebSockets.Client.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Net.WebSockets.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.ObjectModel.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Reflection.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Reflection.Extensions.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Reflection.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Resources.Reader.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Resources.ResourceManager.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Resources.Writer.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.Extensions.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.Handles.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.InteropServices.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.Numerics.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.Serialization.Formatters.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.Serialization.Json.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.Serialization.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.Serialization.Xml.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.Claims.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.Cryptography.Algorithms.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.Cryptography.Csp.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.Cryptography.Encoding.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.Cryptography.Primitives.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.Principal.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Security.SecureString.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Text.Encoding.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Text.Encoding.Extensions.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Text.RegularExpressions.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Threading.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Threading.Overlapped.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Threading.Tasks.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Threading.Tasks.Parallel.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Threading.Thread.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Threading.ThreadPool.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Threading.Timer.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.ValueTuple.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Xml.ReaderWriter.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Xml.XDocument.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Xml.XmlDocument.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Xml.XmlSerializer.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Xml.XPath.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Xml.XPath.XDocument.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\Antlr3.Runtime.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\EntityFramework.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\EntityFramework.SqlServer.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\Microsoft.Web.Infrastructure.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\Newtonsoft.Json.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Buffers.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Memory.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Numerics.Vectors.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Helpers.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Mvc.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Optimization.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Razor.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.WebPages.Deployment.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.WebPages.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.WebPages.Razor.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\WebGrease.dll
+C:\Pankaj\Projects\asp\EventPlanner\bin\EntityFramework.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\EntityFramework.SqlServer.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\Newtonsoft.Json.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Buffers.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Memory.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Numerics.Vectors.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Helpers.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Mvc.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Razor.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.WebPages.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.WebPages.Deployment.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.WebPages.Razor.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\System.Web.Optimization.xml
+C:\Pankaj\Projects\asp\EventPlanner\bin\Antlr3.Runtime.pdb
+C:\Pankaj\Projects\asp\EventPlanner\obj\Debug\EventPlanner.csprojAssemblyReference.cache
+C:\Pankaj\Projects\asp\EventPlanner\obj\Debug\EventPlanner.csproj.CoreCompileInputs.cache
+C:\Pankaj\Projects\asp\EventPlanner\obj\Debug\EventPlanner.csproj.CopyComplete
+C:\Pankaj\Projects\asp\EventPlanner\obj\Debug\EventPlanner.dll
+C:\Pankaj\Projects\asp\EventPlanner\obj\Debug\EventPlanner.pdb
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\EventPlanner.dll.config
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\EventPlanner.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\EventPlanner.pdb
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\csc.exe
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\csc.exe.config
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\csc.rsp
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\csi.exe
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\csi.exe.config
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\csi.rsp
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.AppContext.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Console.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.IO.Compression.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Net.Http.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.ValueTuple.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\vbc.exe
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\vbc.exe.config
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\vbc.rsp
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\VBCSCompiler.exe
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Microsoft.Win32.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\netstandard.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.AppContext.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Collections.Concurrent.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Collections.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Collections.NonGeneric.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Collections.Specialized.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.ComponentModel.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.ComponentModel.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Console.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Data.Common.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.Contracts.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.Debug.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.Process.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.StackTrace.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.Tools.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.TraceSource.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.Tracing.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Drawing.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Dynamic.Runtime.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Globalization.Calendars.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Globalization.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Globalization.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.Compression.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.Compression.ZipFile.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.FileSystem.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.IsolatedStorage.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.Pipes.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Linq.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Linq.Expressions.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Linq.Parallel.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Linq.Queryable.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.Http.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.NameResolution.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.NetworkInformation.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.Ping.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.Requests.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.Security.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.Sockets.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.WebHeaderCollection.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.WebSockets.Client.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Net.WebSockets.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.ObjectModel.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Reflection.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Reflection.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Reflection.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Resources.Reader.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Resources.ResourceManager.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Resources.Writer.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.Handles.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.InteropServices.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.Numerics.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.Serialization.Json.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.Claims.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.Cryptography.Csp.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.Principal.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Security.SecureString.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Text.Encoding.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Text.Encoding.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Text.RegularExpressions.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Threading.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Threading.Overlapped.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Threading.Tasks.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Threading.Thread.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Threading.ThreadPool.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Threading.Timer.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.ValueTuple.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Xml.ReaderWriter.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Xml.XDocument.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Xml.XmlDocument.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Xml.XmlSerializer.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Xml.XPath.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Xml.XPath.XDocument.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Antlr3.Runtime.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\EntityFramework.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\EntityFramework.SqlServer.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Newtonsoft.Json.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Buffers.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Memory.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Numerics.Vectors.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Helpers.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Mvc.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Optimization.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Razor.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.WebPages.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.WebPages.Razor.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\WebGrease.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\EntityFramework.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\EntityFramework.SqlServer.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Newtonsoft.Json.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Buffers.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Memory.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Numerics.Vectors.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Helpers.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Mvc.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Razor.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.WebPages.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.WebPages.Razor.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\System.Web.Optimization.xml
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\bin\Antlr3.Runtime.pdb
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\obj\Debug\EventPlanner.csprojAssemblyReference.cache
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\obj\Debug\EventPlanner.csproj.CopyComplete
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\obj\Debug\EventPlanner.dll
+C:\Users\ankit\Downloads\GoExplore04122019\EventPlanner\obj\Debug\EventPlanner.pdb
+D:\FinalProject\GoExplore\EventPlanner\bin\EventPlanner.dll.config
+D:\FinalProject\GoExplore\EventPlanner\bin\EventPlanner.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\EventPlanner.pdb
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\csc.exe
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\csc.exe.config
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\csc.rsp
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\csi.exe
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\csi.exe.config
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\csi.rsp
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.AppContext.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Collections.Immutable.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Console.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Globalization.Calendars.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Net.Http.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Net.Sockets.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Reflection.Metadata.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.ValueTuple.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\vbc.exe
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\vbc.exe.config
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\vbc.rsp
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe
+D:\FinalProject\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe.config
+D:\FinalProject\GoExplore\EventPlanner\bin\Microsoft.Win32.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\netstandard.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.AppContext.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Collections.Concurrent.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Collections.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Collections.NonGeneric.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Collections.Specialized.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.EventBasedAsync.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.TypeConverter.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Console.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Data.Common.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Contracts.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Debug.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.FileVersionInfo.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Process.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.StackTrace.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Tools.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.TraceSource.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Tracing.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Drawing.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Dynamic.Runtime.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Globalization.Calendars.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Globalization.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Globalization.Extensions.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.Compression.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.Compression.ZipFile.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.DriveInfo.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.Watcher.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.IsolatedStorage.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.MemoryMappedFiles.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.Pipes.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.IO.UnmanagedMemoryStream.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Linq.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Linq.Expressions.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Linq.Parallel.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Linq.Queryable.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.Http.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.NameResolution.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.NetworkInformation.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.Ping.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.Requests.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.Security.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.Sockets.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.WebHeaderCollection.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.WebSockets.Client.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Net.WebSockets.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.ObjectModel.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Reflection.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Reflection.Extensions.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Reflection.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Resources.Reader.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Resources.ResourceManager.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Resources.Writer.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Extensions.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Handles.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Numerics.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Formatters.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Json.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Xml.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.Claims.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Algorithms.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Csp.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Encoding.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Primitives.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.X509Certificates.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.Principal.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Security.SecureString.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Text.Encoding.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Text.Encoding.Extensions.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Text.RegularExpressions.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Threading.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Overlapped.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Tasks.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Tasks.Parallel.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Thread.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Threading.ThreadPool.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Timer.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.ValueTuple.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Xml.ReaderWriter.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XDocument.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XmlDocument.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XmlSerializer.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XPath.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XPath.XDocument.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\Antlr3.Runtime.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\Microsoft.Web.Infrastructure.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\Newtonsoft.Json.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Buffers.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Memory.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Numerics.Vectors.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Helpers.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Mvc.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Optimization.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Razor.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\WebGrease.dll
+D:\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\Newtonsoft.Json.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Buffers.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Memory.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Numerics.Vectors.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Helpers.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Mvc.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Razor.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\System.Web.Optimization.xml
+D:\FinalProject\GoExplore\EventPlanner\bin\Antlr3.Runtime.pdb
+D:\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.csprojAssemblyReference.cache
+D:\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.csproj.CopyComplete
+D:\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.dll
+D:\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.pdb
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.csprojAssemblyReference.cache
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.pdb
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\EventPlanner.dll.config
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\EventPlanner.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\EventPlanner.pdb
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\csc.exe
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\csc.exe.config
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\csc.rsp
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\csi.exe
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\csi.exe.config
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\csi.rsp
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.AppContext.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Console.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Net.Http.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.ValueTuple.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\vbc.exe
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\vbc.exe.config
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\vbc.rsp
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Microsoft.Win32.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\netstandard.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.AppContext.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Collections.Concurrent.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Collections.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Collections.NonGeneric.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Collections.Specialized.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Console.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Data.Common.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Contracts.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Debug.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Process.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.StackTrace.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Tools.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.TraceSource.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.Tracing.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Drawing.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Dynamic.Runtime.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Globalization.Calendars.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Globalization.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Globalization.Extensions.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.Compression.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.Compression.ZipFile.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.IsolatedStorage.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.Pipes.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Linq.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Linq.Expressions.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Linq.Parallel.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Linq.Queryable.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.Http.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.NameResolution.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.NetworkInformation.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.Ping.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.Requests.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.Security.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.Sockets.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.WebHeaderCollection.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.WebSockets.Client.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Net.WebSockets.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.ObjectModel.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Reflection.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Reflection.Extensions.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Reflection.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Resources.Reader.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Resources.ResourceManager.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Resources.Writer.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Extensions.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Handles.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Numerics.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Json.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.Claims.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Csp.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.Principal.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Security.SecureString.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Text.Encoding.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Text.Encoding.Extensions.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Text.RegularExpressions.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Threading.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Overlapped.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Tasks.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Thread.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Threading.ThreadPool.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Threading.Timer.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.ValueTuple.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Xml.ReaderWriter.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XDocument.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XmlDocument.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XmlSerializer.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XPath.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Xml.XPath.XDocument.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Antlr3.Runtime.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Newtonsoft.Json.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Buffers.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Memory.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Numerics.Vectors.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Helpers.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Mvc.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Optimization.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Razor.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\WebGrease.dll
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Newtonsoft.Json.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Buffers.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Memory.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Numerics.Vectors.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Helpers.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Mvc.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Razor.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\System.Web.Optimization.xml
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\bin\Antlr3.Runtime.pdb
+C:\Users\ankit\Desktop\Early-Stages\FinalProject\GoExplore\EventPlanner\obj\Debug\EventPlanner.csproj.CopyComplete
+D:\Ashish\Project\Test\GoExplore\EventPlanner\obj\Debug\EventPlanner.csprojAssemblyReference.cache
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\EventPlanner.dll.config
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\EventPlanner.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\EventPlanner.pdb
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\csc.exe
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\csc.exe.config
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\csc.rsp
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\csi.exe
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\csi.exe.config
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\csi.rsp
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.AppContext.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Collections.Immutable.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Console.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Globalization.Calendars.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Net.Http.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Net.Sockets.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.ValueTuple.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\vbc.exe
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\vbc.exe.config
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\vbc.rsp
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe.config
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Microsoft.Win32.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\netstandard.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.AppContext.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Collections.Concurrent.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Collections.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Collections.NonGeneric.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Collections.Specialized.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.ComponentModel.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.ComponentModel.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.ComponentModel.TypeConverter.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Console.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Data.Common.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.Contracts.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.Debug.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.Process.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.StackTrace.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.Tools.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.TraceSource.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.Tracing.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Drawing.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Dynamic.Runtime.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Globalization.Calendars.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Globalization.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Globalization.Extensions.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.Compression.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.Compression.ZipFile.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.FileSystem.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.FileSystem.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.FileSystem.Watcher.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.IsolatedStorage.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.MemoryMappedFiles.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.Pipes.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Linq.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Linq.Expressions.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Linq.Parallel.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Linq.Queryable.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.Http.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.NameResolution.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.NetworkInformation.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.Ping.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.Requests.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.Security.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.Sockets.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.WebHeaderCollection.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.WebSockets.Client.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Net.WebSockets.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.ObjectModel.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Reflection.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Reflection.Extensions.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Reflection.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Resources.Reader.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Resources.ResourceManager.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Resources.Writer.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.Extensions.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.Handles.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.Numerics.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Formatters.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Json.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Xml.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.Claims.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.Cryptography.Algorithms.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.Cryptography.Csp.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.Cryptography.Encoding.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.Cryptography.Primitives.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.Principal.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Security.SecureString.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Text.Encoding.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Text.Encoding.Extensions.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Text.RegularExpressions.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Threading.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Threading.Overlapped.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Threading.Tasks.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Threading.Tasks.Parallel.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Threading.Thread.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Threading.ThreadPool.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Threading.Timer.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.ValueTuple.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Xml.ReaderWriter.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Xml.XDocument.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Xml.XmlDocument.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Xml.XmlSerializer.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Xml.XPath.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Xml.XPath.XDocument.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Antlr3.Runtime.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\EntityFramework.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Microsoft.Web.Infrastructure.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Newtonsoft.Json.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Buffers.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Memory.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Numerics.Vectors.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Helpers.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Mvc.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Optimization.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Razor.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.WebPages.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\WebGrease.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\EntityFramework.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Newtonsoft.Json.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Buffers.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Memory.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Numerics.Vectors.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Helpers.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Mvc.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Razor.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.WebPages.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\System.Web.Optimization.xml
+D:\Ashish\Project\Test\GoExplore\EventPlanner\bin\Antlr3.Runtime.pdb
+D:\Ashish\Project\Test\GoExplore\EventPlanner\obj\Debug\EventPlanner.csproj.CopyComplete
+D:\Ashish\Project\Test\GoExplore\EventPlanner\obj\Debug\EventPlanner.dll
+D:\Ashish\Project\Test\GoExplore\EventPlanner\obj\Debug\EventPlanner.pdb
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\EventPlanner.dll.config
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\EventPlanner.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\EventPlanner.pdb
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\csc.exe
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\csc.exe.config
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\csc.rsp
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\csi.exe
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\csi.exe.config
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\csi.rsp
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.AppContext.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Collections.Immutable.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Console.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Globalization.Calendars.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Net.Http.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Net.Sockets.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.ValueTuple.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\vbc.exe
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\vbc.exe.config
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\vbc.rsp
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\roslyn\VBCSCompiler.exe.config
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Microsoft.Win32.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\netstandard.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.AppContext.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Collections.Concurrent.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Collections.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Collections.NonGeneric.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Collections.Specialized.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.ComponentModel.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.ComponentModel.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.ComponentModel.TypeConverter.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Console.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Data.Common.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.Contracts.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.Debug.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.Process.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.StackTrace.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.Tools.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.TraceSource.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.Tracing.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Drawing.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Dynamic.Runtime.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Globalization.Calendars.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Globalization.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Globalization.Extensions.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.Compression.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.Compression.ZipFile.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.FileSystem.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.FileSystem.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.FileSystem.Watcher.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.IsolatedStorage.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.MemoryMappedFiles.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.Pipes.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Linq.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Linq.Expressions.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Linq.Parallel.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Linq.Queryable.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.Http.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.NameResolution.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.NetworkInformation.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.Ping.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.Requests.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.Security.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.Sockets.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.WebHeaderCollection.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.WebSockets.Client.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Net.WebSockets.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.ObjectModel.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Reflection.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Reflection.Extensions.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Reflection.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Resources.Reader.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Resources.ResourceManager.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Resources.Writer.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.Extensions.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.Handles.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.Numerics.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Formatters.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Json.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.Serialization.Xml.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.Claims.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.Cryptography.Algorithms.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.Cryptography.Csp.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.Cryptography.Encoding.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.Cryptography.Primitives.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.Principal.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Security.SecureString.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Text.Encoding.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Text.Encoding.Extensions.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Text.RegularExpressions.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Threading.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Threading.Overlapped.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Threading.Tasks.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Threading.Tasks.Parallel.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Threading.Thread.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Threading.ThreadPool.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Threading.Timer.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.ValueTuple.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Xml.ReaderWriter.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Xml.XDocument.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Xml.XmlDocument.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Xml.XmlSerializer.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Xml.XPath.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Xml.XPath.XDocument.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Antlr3.Runtime.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\EntityFramework.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Microsoft.Web.Infrastructure.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Newtonsoft.Json.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Buffers.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Memory.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Numerics.Vectors.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Helpers.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Mvc.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Optimization.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Razor.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.WebPages.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\WebGrease.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\EntityFramework.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\EntityFramework.SqlServer.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Newtonsoft.Json.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Buffers.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Memory.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Numerics.Vectors.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Helpers.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Mvc.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Razor.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.WebPages.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.WebPages.Deployment.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.WebPages.Razor.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\System.Web.Optimization.xml
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\bin\Antlr3.Runtime.pdb
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\obj\Debug\EventPlanner.csprojAssemblyReference.cache
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\obj\Debug\EventPlanner.csproj.CoreCompileInputs.cache
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\obj\Debug\EventPlanner.csproj.CopyComplete
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\obj\Debug\EventPlanner.dll
+C:\Pankaj\Projects\asp\GoExplore\EventPlanner\obj\Debug\EventPlanner.pdb
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\EventPlanner.dll.config
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\EventPlanner.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\EventPlanner.pdb
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\csc.exe
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\csc.exe.config
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\csc.rsp
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\csi.exe
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\csi.exe.config
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\csi.rsp
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.AppContext.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Console.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.IO.Compression.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Net.Http.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.ValueTuple.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\vbc.exe
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\vbc.exe.config
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\vbc.rsp
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\VBCSCompiler.exe
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Microsoft.Win32.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\netstandard.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.AppContext.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Collections.Concurrent.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Collections.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Collections.NonGeneric.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Collections.Specialized.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.ComponentModel.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.ComponentModel.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Console.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Data.Common.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.Contracts.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.Debug.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.Process.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.StackTrace.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.Tools.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.TraceSource.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.Tracing.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Drawing.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Dynamic.Runtime.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Globalization.Calendars.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Globalization.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Globalization.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.Compression.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.Compression.ZipFile.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.FileSystem.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.IsolatedStorage.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.Pipes.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Linq.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Linq.Expressions.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Linq.Parallel.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Linq.Queryable.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.Http.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.NameResolution.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.NetworkInformation.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.Ping.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.Requests.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.Security.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.Sockets.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.WebHeaderCollection.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.WebSockets.Client.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Net.WebSockets.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.ObjectModel.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Reflection.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Reflection.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Reflection.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Resources.Reader.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Resources.ResourceManager.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Resources.Writer.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.Handles.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.InteropServices.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.Numerics.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.Serialization.Json.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.Claims.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.Cryptography.Csp.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.Principal.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Security.SecureString.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Text.Encoding.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Text.Encoding.Extensions.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Text.RegularExpressions.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Threading.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Threading.Overlapped.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Threading.Tasks.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Threading.Thread.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Threading.ThreadPool.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Threading.Timer.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.ValueTuple.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Xml.ReaderWriter.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Xml.XDocument.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Xml.XmlDocument.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Xml.XmlSerializer.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Xml.XPath.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Xml.XPath.XDocument.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Antlr3.Runtime.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\EntityFramework.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\EntityFramework.SqlServer.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Newtonsoft.Json.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Buffers.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Memory.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Numerics.Vectors.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Helpers.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Mvc.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Optimization.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Razor.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.WebPages.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.WebPages.Razor.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\WebGrease.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\EntityFramework.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\EntityFramework.SqlServer.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Newtonsoft.Json.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Buffers.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Memory.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Numerics.Vectors.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Helpers.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Mvc.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Razor.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.WebPages.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.WebPages.Razor.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\System.Web.Optimization.xml
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\bin\Antlr3.Runtime.pdb
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\obj\Debug\EventPlanner.csprojAssemblyReference.cache
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\obj\Debug\EventPlanner.csproj.CopyComplete
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\obj\Debug\EventPlanner.dll
+C:\Users\ankit\Downloads\GoExplore_08122019 (3)\EventPlanner\obj\Debug\EventPlanner.pdb

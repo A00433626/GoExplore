@@ -1,0 +1,93 @@
+﻿@model EventPlanner.Areas.Admin.Models.RegistrationModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="register-box">
+    <div class="card">
+        <div class="card-body register-card-body">
+            <p class="login-box-msg">Register a new membership</p>
+            <p class="login-box-msg">@ViewBag.Message</p>
+            <form action="@Url.Action("Index", "Registration")" method="post">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Full name" name="UserName">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                </div>
+                @Html.ValidationMessageFor(r => r.UserName, "", new { @class = "text-danger" })
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Email" name="EmailId">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+                </div>
+                @Html.ValidationMessageFor(r => r.EmailId, "", new { @class = "text-danger" })
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Password" name="Password">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                </div>
+                @Html.ValidationMessageFor(r => r.Password, "", new { @class = "text-danger" })
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Retype password" name="ConfirmPassword">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                </div>
+                @Html.ValidationMessageFor(r => r.ConfirmPassword, "", new { @class = "text-danger" })
+                @*<div class="input-group.md-3">
+            <div class="form-group">
+                <label>Minimal</label>
+                <select class="form-control select2" style="width: 100%;" name="UserType">
+                    <option selected="selected">Choose User Type</option>
+                    <option>Admin</option>
+                    <option>Organiser</option>
+                    <option>User</option>
+                </select>
+            </div>
+        </div>*@
+                <div class="row">
+                    <div class="col-8">
+                        <div class="icheck-primary">
+                            <input type="checkbox" id="agreeTerms" name="TermsAndConditions" value="agree">
+                            <label for="agreeTerms">
+                                I agree to the <a href="#">terms</a>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- /.col -->
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+            <div class="social-auth-links text-center">
+                <p>- OR -</p>
+                <a href="#" class="btn btn-block btn-primary">
+                    <i class="fab fa-facebook mr-2"></i>
+                    Sign up using Facebook
+                </a>
+                <a href="#" class="btn btn-block btn-danger">
+                    <i class="fab fa-google-plus mr-2"></i>
+                    Sign up using Google+
+                </a>
+            </div>
+            @*<a href="../Login/" class="text-center">I already have a membership</a>*@
+            @Html.ActionLink("I already have a membership", "Index", "Login")
+        </div>
+        <!-- /.form-box -->
+    </div><!-- /.card -->
+</div>
+<!-- /.register-box -->

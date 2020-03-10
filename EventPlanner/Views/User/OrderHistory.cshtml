@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewBag.Title = "OrderHistory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<body>
+    <div class="page-header events-page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Order History.</h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- general form elements -->
+                <div class="">
+                    <!-- /.card-header -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <!-- /.card-header -->
+                            <div class="card-body p-0">
+                                @if (ViewBag.Success != null)
+                                {
+                                    <div>
+                                        Order Canceled Successfully.
+                                    </div>
+
+                                }
+                                @{ var rowIdx = 0;}
+                                <table class="table" id="mainTable">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10px">#</th>
+                                            <th>Category</th>
+                                            <th>Organiser</th>
+                                            <th>Name</th>
+                                            <th style="width:200px">Description</th>
+                                            <th>Event Date</th>
+
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        @{int x = 1;}
+                                        @if (ViewBag.Count != null && ViewBag.Count > 0)
+                                        {
+                                            foreach (var eventData in @ViewBag.eventDatas)
+                                            {
+                                                <tr id="BookingId"@eventData.bookingId>
+                                                    <td>@(x++).</td>
+                                                    <td>@eventData.Event_Details.Event_Category.categoryName</td>
+                                                    <td>@eventData.User.emailId</td>
+                                                    <td>@eventData.Event_Details.eventName</td>
+                                                    <td>@Convert.ToString(@eventData.Event_Details.eventDescription)</td>
+                                                    <td>
+                                                        @{
+                                                            var sdt = @Convert.ToDateTime(@eventData.Event_Details.eventDate);
+                                                        }
+                                                        @sdt.ToString("dd MMM-yyyy HH:mm tt")
+                                                    </td>
+
+                                                    <td><a href="javascript:void(0);" onclick="CancelEvent('@eventData.bookingId','@rowIdx')">Cancel Booking</a></td>
+                                                    @{rowIdx = rowIdx + 1;}
+                                                </tr>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="5">There is no enough data to display</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    
+    function CancelEvent(e,idx) {
+       
+        $.ajax({
+            type: "get",
+            url: "/User/CancelOrder",
+            data: { 'bookingId': e },
+            success: function (result, status, xhr) {
+                alert("Event Deleted successfully");
+                document.getElementById("mainTable").deleteRow(idx);
+            },
+            error: function (xhr, status, error) {
+                // do something
+            }
+        });
+    }
+     
+</script>

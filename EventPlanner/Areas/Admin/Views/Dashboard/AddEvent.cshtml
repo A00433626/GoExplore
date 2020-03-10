@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "AddEvent";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Event Management</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Form</a></li>
+                    <li class="breadcrumb-item active">Add NewEvent</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        
+                        <h3 class="card-title">
+                            <a href="@Url.Action("Index", "Dashboard", new { @pageNo=0})" title="Back to Event List">
+                                <i class="far fa-arrow-alt-circle-left"></i>
+                            </a> | Event Management
+                        </h3>
+                        
+                    </div>
+                    <!-- form start -->
+                    <!--<form role="form">-->
+                    @using (Html.BeginForm("SaveEvent", "Dashboard", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Category</label>
+                                @Html.DropDownList("CategoryId", ViewBag.CategoryData as SelectList, "Please Select Event Category", new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Organiser</label>
+                                @Html.DropDownList("Organiser_ID", ViewBag.UserData as SelectList, "Please Select Event Organiser", new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Event Name</label>
+                                <input type="text" class="form-control" name="EventName" placeholder="Enter Event Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Event Description</label>
+                                <input type="text" class="form-control" name="EventDescription" placeholder="Event Description">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Event Start Date</label>
+                                <input type="text" class="form-control" name="EventStartDate" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask="" im-insert="false">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Event End Date</label>
+                                <input type="text" class="form-control" name="EventEndDate" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask="" im-insert="false">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Event Venue</label>
+                                <input type="text" class="form-control" name="Venue" placeholder="Event Venue">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Event Image Path</label>
+                                <input type="file" name="ImagePath" />
+                                @*<div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile" name="ImagePath">
+                                    <label class="custom-file-label" for="customFile">Choose file</label>
+                                </div>*@
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    }
+
+                    <!--</form>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.content -->
